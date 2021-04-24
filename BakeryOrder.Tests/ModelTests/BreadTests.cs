@@ -1,9 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Order.Models;
+using BakeryOrder;
 using System.Collections.Generic;
 using System;
 
-namespace Order.Tests
+namespace BakeryOrder.Tests
 {
+  [TestClass]
+  public class BreadTests
+  {
+    [TestMethod]
+    public void Loaves_NumOfLoaves_UserInput()
+    {
 
+    }
+  }
 }
